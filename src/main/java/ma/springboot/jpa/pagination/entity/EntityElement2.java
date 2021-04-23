@@ -11,18 +11,21 @@ import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
-@Table(name = "ELEMENT1")
+@Table(name = "ELEMENT2")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Element1 {
+public class EntityElement2 {
     @Id
-    @Column(name = "ATTR1")
-    private long attr1;
+    @Column(name = "ATTR4")
+    private long attr4;
 
-    @Column(name = "ATT2")
-    private String attr2;
+    @Column(name = "ATTR5")
+    private String attr5;
 
-    @Column(name = "ATTR3")
-    private Date attr3;
+    @Column(name = "ATTR6")
+    private Date attr6;
+
+    @Column(name = "ATTR7")
+    private long attr7;
 }

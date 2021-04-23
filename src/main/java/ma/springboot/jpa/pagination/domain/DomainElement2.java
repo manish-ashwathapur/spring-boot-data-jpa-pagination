@@ -13,5 +13,5 @@ public class DomainElement2 {
     private long attr4;
     private String attr5;
     private Date attr6;
-    private String attr7;
+    private long attr7;
 }

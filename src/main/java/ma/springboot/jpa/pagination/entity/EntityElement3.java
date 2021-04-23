@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Element3 {
+public class EntityElement3 {
     @Id
     @Column(name = "ATTR8")
     private long attr8;
