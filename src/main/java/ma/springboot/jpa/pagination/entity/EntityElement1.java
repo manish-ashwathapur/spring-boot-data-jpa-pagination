@@ -20,7 +20,7 @@ public class EntityElement1 {
     @Column(name = "ATTR1")
     private long attr1;
 
-    @Column(name = "ATT2")
+    @Column(name = "ATTR2")
     private String attr2;
 
     @Column(name = "ATTR3")

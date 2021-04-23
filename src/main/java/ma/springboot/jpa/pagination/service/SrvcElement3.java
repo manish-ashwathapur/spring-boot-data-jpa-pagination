@@ -3,8 +3,6 @@ package ma.springboot.jpa.pagination.service;
 import ma.springboot.jpa.pagination.constant.PageSize;
 import ma.springboot.jpa.pagination.domain.DomainElement3;
 import ma.springboot.jpa.pagination.entity.EntityElement3;
-import ma.springboot.jpa.pagination.repository.RepoElement1;
-import ma.springboot.jpa.pagination.repository.RepoElement2;
 import ma.springboot.jpa.pagination.repository.RepoElement3;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;

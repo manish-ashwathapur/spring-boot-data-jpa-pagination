@@ -1,8 +1,7 @@
 package ma.springboot.jpa.pagination.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.*;
 
 import java.util.Date;
 
@@ -13,4 +12,9 @@ public class DomainElement1 {
     private long attr1;
     private String attr2;
     private Date attr3;
+
+    @SneakyThrows
+    public String toString(){
+        return new ObjectMapper().writeValueAsString(this);
+    }
 }
